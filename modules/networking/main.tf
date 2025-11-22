@@ -16,15 +16,6 @@ resource "aws_internet_gateway" "igw" {
   }
 }
 
-bahattshh shjd
-
-difuhjbm 
-
-iuhyrkje,dmf
-\
-rdoihlknre,for_each
-
-
 resource "aws_subnet" "public" {
   for_each = var.public_subnets
 

@@ -9,6 +9,10 @@ resource "aws_iam_role" "ec2_role" {
       Action    = "sts:AssumeRole"
     }]
   })
+
+  eridfckhjnm,  
+  red'f/cv
+  iukjrebdnmf ,c.vredfcvhiukj
 }
 
 resource "aws_iam_policy" "s3_read" {

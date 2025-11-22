@@ -24,7 +24,7 @@ resource "aws_iam_policy" "s3_read" {
   })
 }
 
-
+# Good code only attach the policy after creating both role and policy
 resource "aws_iam_role_policy_attachment" "attach" {
   role       = aws_iam_role.ec2_role.name
   policy_arn = aws_iam_policy.s3_read.arn

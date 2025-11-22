@@ -1,2 +1,2 @@
 variable "env_name" {}
-variable "bucket_arn" {}
+variable "existing_role_name" {}

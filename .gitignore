@@ -1,4 +1,4 @@
-env/dev/.terraform.lock.hcl
-env/dev/.terraform
-
-.terraform
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*

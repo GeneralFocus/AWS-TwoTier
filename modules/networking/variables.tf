@@ -1,8 +1,8 @@
 variable "env_name" {
-  type = string # Added 'type' attribute
+  type = string 
 }
 variable "vpc_cidr" {
-  type = string # Added 'type' attribute
+  type = string 
 }
 
 variable "public_subnets" {

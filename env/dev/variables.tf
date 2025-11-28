@@ -1,4 +1,4 @@
 variable "ami" {
-  type    = string # Added 'type' attribute
+  type    = string 
   default = "ami-0fa3fe0fa7920f68e"
 }

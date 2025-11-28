@@ -1,2 +1,6 @@
-variable "env_name" {}
-variable "existing_role_name" {}
+variable "env_name" {
+  type = string 
+}
+variable "existing_role_name" {
+  type = string 
+}

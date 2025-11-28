@@ -1,7 +1,21 @@
-variable "env_name" {}
-variable "min_size" {}
-variable "max_size" {}
-variable "desired_capacity" {}
-variable "lt_id" {}
-variable "tg_arn" {}
-variable "private_subnets" {}
+variable "env_name" {
+  type = string 
+}
+variable "min_size" {
+  type = number 
+}
+variable "max_size" {
+  type = number 
+}
+variable "desired_capacity" {
+  type = number 
+}
+variable "lt_id" {
+  type = string 
+}
+variable "tg_arn" {
+  type = string 
+}
+variable "private_subnets" {
+  type = list(string) 
+}

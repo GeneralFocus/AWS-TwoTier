@@ -1,6 +1,6 @@
 variable "env_name" {
-  type = string # Corrected
+  type = string 
 }
 variable "existing_role_name" {
-  type = string # Corrected
+  type = string 
 }

@@ -1,2 +1,6 @@
-variable "env_name" {}
-variable "vpc_id" {}
+variable "env_name" {
+  type = string
+}
+variable "vpc_id" {
+  type = string
+}

@@ -1,7 +1,17 @@
+terraform {
+  required_version = ">= 1.0.0"
+
+  required_providers {
+    aws = {
+      source  = "hashicorp/aws"
+      version = ">= 5.0"
+    }
+  }
+}
 resource "aws_lb" "alb" {
   name               = "${var.env_name}-ALB"
   load_balancer_type = "application"
-    subnets = var.public_subnets
+  subnets            = var.public_subnets
   security_groups    = [var.alb_sg]
 }
 

@@ -31,8 +31,8 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install wget -y
-          wget https://github.com/aquasecurity/trivy/releases/latest/download/trivy_0.49.0_Linux-64bit.deb
-          sudo dpkg -i trivy_0.49.0_Linux-64bit.deb
+          wget https://github.com/aquasecurity/trivy/releases/latest/download/trivy_Linux-64bit.deb -O trivy.deb
+          sudo dpkg -i trivy.deb
 
       - name: Trivy Scan
         run: trivy fs --exit-code 1 --severity HIGH,CRITICAL .

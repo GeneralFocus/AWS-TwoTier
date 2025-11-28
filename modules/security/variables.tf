@@ -1,6 +1,6 @@
 variable "env_name" {
-  type = string # Added 'type' attribute
+  type = string 
 }
 variable "vpc_id" {
-  type = string # Added 'type' attribute
+  type = string 
 }

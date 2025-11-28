@@ -1,5 +1,5 @@
 variable "env_name" {
-  type = string # Added 'type' attribute
+  type = string 
 }
 variable "public_subnets" {
   type = list(string)

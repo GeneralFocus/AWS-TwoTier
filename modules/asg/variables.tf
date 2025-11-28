@@ -1,21 +1,21 @@
 variable "env_name" {
-  type = string # Corrected
+  type = string 
 }
 variable "min_size" {
-  type = number # Corrected
+  type = number 
 }
 variable "max_size" {
-  type = number # Corrected
+  type = number 
 }
 variable "desired_capacity" {
-  type = number # Corrected
+  type = number 
 }
 variable "lt_id" {
-  type = string # Corrected
+  type = string 
 }
 variable "tg_arn" {
-  type = string # Corrected
+  type = string 
 }
 variable "private_subnets" {
-  type = list(string) # Corrected
+  type = list(string) 
 }

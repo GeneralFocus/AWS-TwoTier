@@ -1,4 +1,4 @@
-# **Group 3 - Final Project Tier Two Infrastructure Repository**
+# **Tier Two Infrastructure Repository**
 
 This repository contains a multi-environment Terraform setup used to provision cloud resources safely across development, staging and production environments.
 
